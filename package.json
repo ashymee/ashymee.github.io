@@ -1,6 +1,6 @@
 {
   "name": "turn-me-on",
-  "version": "0.1.0",
+  "version": "1.0",
   "author": {
     "name": "Aswin Sahlan Himawan",
     "email": "ashymee@gmail.com",
@@ -23,7 +23,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
