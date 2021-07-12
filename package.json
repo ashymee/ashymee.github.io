@@ -6,7 +6,7 @@
     "email": "ashymee@gmail.com",
     "url": "https://devstreetlab.my.id"
   },
-  "homepage": "https://ashymee.github.io/turn-me-on",
+  "homepage": "https://ashymee.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
