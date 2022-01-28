@@ -26,8 +26,8 @@ const Header = () => {
   const [lang, setLang] = useState('id');
 
   return (
-    <div className='w-full flex mb-5 flex-none'>
-      <div className='flex-none flex flex-col space-y-2 h-min bg-slate-700 p-2 rounded-xl'>
+    <div className='w-full flex flex-col lg:flex-row mb-5 lg:flex-none lg:space-x-2'>
+      <div className='lg:flex-none flex lg:flex-col space-x-2 lg:space-y-2 lg:h-full bg-slate-700 p-2 rounded-xl mb-5 lg:mb-0'>
         {languages.map((item, index) => (
           <Tooltip title={item.name} direction='tooltip-right' key={item.id}>
             <button
@@ -59,17 +59,10 @@ const Header = () => {
           </button>
         </Tooltip>
       </div>
-      <div className='flex flex-1 flex-col items-center'>
+      <div className='flex w-full lg:flex-1 flex-col items-center bg-gray-900/50 py-3 rounded-btn'>
         <Avatar />
         <Fullname />
         <CurrentJob />
-      </div>
-      <div className='h-full'>
-        <a
-          className='flex-none btn bg-base-300 text-2xl font-extralight hover:text-orange-400 rotate-90 mt-16 mr-[50px] fixed'
-          href='https://devstreetlab.my.id'>
-          Portfolio
-        </a>
       </div>
     </div>
   );

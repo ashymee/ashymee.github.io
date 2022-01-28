@@ -16,7 +16,7 @@ const Hobbies = () => {
       <div className='divider'>{t('hobi')}</div>
       <div className='flex flex-wrap justify-center space-x-2'>
         {hobbies.map((hobby, index) => (
-          <div className='text-2xl' key={hobby}>
+          <div className='text-xl lg:text-2xl' key={hobby}>
             {/* add comma for each hoby, and remove comma for the last hobby */}
             {index !== hobbies.length - 1 ? `${hobby}, ` : `${hobby}`}
           </div>

@@ -7,12 +7,12 @@ const Profile = () => {
   return (
     <div id={`#${t('profil')}`} className='p-3'>
       {/* header title */}
-      <div className='flex text-2xl items-center space-x-3 mb-5'>
+      <div className='flex text-xl lg:text-2xl items-center space-x-3 mb-5'>
         <FaUser />
         <div className='uppercase'>{t('profil')}</div>
       </div>
       {/* description */}
-      <p className='text-2xl'>{t('profile_desc')}</p>
+      <p className='text-xl lg:text-2xl'>{t('profile_desc')}</p>
     </div>
   );
 };

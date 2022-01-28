@@ -59,7 +59,7 @@ const Organizations = () => {
   return (
     <div className='p-3'>
       {/* header title */}
-      <div className='flex text-2xl items-center space-x-3 mb-5'>
+      <div className='flex text-xl lg:text-2xl items-center space-x-3 mb-5'>
         <FaRunning />
         <div className='uppercase'>{t('eksskul')}</div>
       </div>
@@ -69,8 +69,8 @@ const Organizations = () => {
           <div className='flex text-xl label-link' key={item.title}>
             <div className='flex items-start space-x-3 hover:bg-slate-900/25 w-full p-2 rounded-xl'>
               <div className='text-xl'>
-                <h1 className='text-2xl'>
-                  <span className='font-bold'>{item.as}</span> -{' '}
+                <h1 className='text-xl lg:text-2xl'>
+                  <span className='lg:font-bold'>{item.as}</span> -{' '}
                   <span className='font-extralight'>{item.title}</span>
                 </h1>
                 <div className='flex items-center text-slate-500'>
