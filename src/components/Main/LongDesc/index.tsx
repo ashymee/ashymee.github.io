@@ -2,6 +2,7 @@ import { FaArrowDown } from 'react-icons/fa';
 import Courses from './Courses';
 import Education from './Education';
 import EmploymentHistory from './EmploymentHistory';
+import Organizations from './Organizations';
 import Profile from './Profile';
 
 const LongDesc = () => (
@@ -14,6 +15,7 @@ const LongDesc = () => (
     <EmploymentHistory />
     <Education />
     <Courses />
+    <Organizations />
   </div>
 );
 

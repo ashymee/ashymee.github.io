@@ -5,7 +5,7 @@ const Profile = () => {
   const { t } = useTranslation();
 
   return (
-    <div className='p-3'>
+    <div id={`#${t('profil')}`} className='p-3'>
       {/* header title */}
       <div className='flex text-2xl items-center space-x-3 mb-5'>
         <FaUser />

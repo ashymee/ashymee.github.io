@@ -46,10 +46,18 @@ const Header = () => {
             </button>
           </Tooltip>
         ))}
+
         <div className='divider'></div>
-        <button className='btn btn-square text-2xl bg-gradient-to-r from-blue-700 to-blue-600 border-0 hover:from-blue-600 hover:to-blue-700'>
-          <FaFilePdf />
-        </button>
+
+        <Tooltip
+          title='Export PDF (under maintainance)'
+          direction='tooltip-right'>
+          <button
+            className='btn btn-square text-3xl btn-ghost cursor-not-allowed'
+            disabled>
+            <FaFilePdf />
+          </button>
+        </Tooltip>
       </div>
       <div className='flex flex-1 flex-col items-center'>
         <Avatar />

@@ -40,5 +40,20 @@
     "bnsp": "National Professional Certification Board",
     "lan": "LAN (Training)",
     "pc": "PC Assembly (Training)",
-    "kursus": "Courses"
+    "kursus": "Courses",
+    "paskib": "National Flag Hoisting Troop",
+    "iaas": "International Association of Agriculture and related Sciences (IAAS)",
+    "sekretaris": "Executive Secretary",
+    "anggota": "Member",
+    "ka_unit": "Unit Leader",
+    "ka_bid": "Head of National Defense",
+    "osis": "Student Council",
+    "lab": "Lab Assistant",
+    "labkom": "Computer Laboratory Administrator",
+    "asdos": "Assistant Lecturer",
+    "ento": "Entomology Laboratory",
+    "eksskul": "Extracurricular Activities",
+    "kmpd": "Basic Plantation Management Course",
+    "ldk": "Basic Leadership Training",
+    "paud": "Early Childhood Education Teacher"
 }

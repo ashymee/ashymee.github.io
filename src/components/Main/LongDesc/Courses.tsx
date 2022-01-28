@@ -8,13 +8,13 @@ const Courses = () => {
     {
       title: t('prog'),
       institution: t('bnsp'),
-      link: 'https://karawangkab.go.id',
+      link: 'https://https://bnsp.go.id/',
       start: 'Apr, 2020',
     },
     {
       title: t('mobdev'),
       institution: t('bnsp'),
-      link: 'https://karawangkab.go.id',
+      link: 'https://https://bnsp.go.id/',
       start: 'Jan, 2019',
     },
     {
@@ -40,6 +40,24 @@ const Courses = () => {
       institution: 'Universitas Padjadjaran',
       link: 'https://www.unpad.ac.id/',
       start: 'Jan, 2002',
+    },
+    {
+      title: t('kmpd'),
+      institution: 'PT Perkebunan Nusantara 1',
+      link: 'http://ptpn1.co.id/',
+      start: 'Feb, 2013',
+    },
+    {
+      title: t('ldk'),
+      institution: 'PT Perkebunan Nusantara 1',
+      link: 'http://ptpn1.co.id/',
+      start: 'Feb, 2011',
+    },
+    {
+      title: 'Planters',
+      institution: 'PT Teladan Prima Agro',
+      link: 'https://www.teladanprima.com/',
+      start: 'Jan, 2008',
     },
   ];
 
