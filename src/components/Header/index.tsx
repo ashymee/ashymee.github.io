@@ -26,8 +26,8 @@ const Header = () => {
   const [lang, setLang] = useState('id');
 
   return (
-    <div className='w-full flex flex-col lg:flex-row mb-5 lg:flex-none lg:space-x-2'>
-      <div className='lg:flex-none flex lg:flex-col space-x-2 lg:space-y-2 lg:h-full bg-slate-700 p-2 rounded-xl mb-5 lg:mb-0'>
+    <div className='w-full flex flex-col lg:flex-row mb-2 lg:flex-none lg:h-full lg:space-x-2'>
+      <div className='lg:flex-none flex lg:flex-col lg:space-x-0 lg:space-y-2 lg:justify-between lg:h-full lg:w-min bg-gray-900/50 p-2 rounded-xl lg:mb-0'>
         {languages.map((item, index) => (
           <Tooltip title={item.name} direction='tooltip-right' key={item.id}>
             <button
@@ -47,7 +47,7 @@ const Header = () => {
           </Tooltip>
         ))}
 
-        <div className='divider'></div>
+        <div className='divider flex-none'></div>
 
         <Tooltip
           title='Export PDF (under maintainance)'
