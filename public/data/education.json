@@ -1,0 +1,30 @@
+[
+  {
+    "year": "2001 - 2006",
+    "level": "Bachelor Degree",
+    "instance": "Universitas Padjadjaran",
+    "location": "Bandung",
+    "logo": "https://res.cloudinary.com/devstreetlab-assets/image/upload/v1687875681/devstreetlab-assets/images/png/unpad_kyyii9.png"
+  },
+  {
+    "year": "1998 - 2001",
+    "level": "Senior High School",
+    "instance": "SMU Negeri 3",
+    "location": "Karawang Regency",
+    "logo": "https://res.cloudinary.com/devstreetlab-assets/image/upload/v1687875906/devstreetlab-assets/images/png/sma_kmbvbb.png"
+  },
+  {
+    "year": "1995 - 1998",
+    "level": "Junior High School",
+    "instance": "SLTP Negeri 1",
+    "location": "Karawang Regency",
+    "logo": "https://res.cloudinary.com/devstreetlab-assets/image/upload/v1687875908/devstreetlab-assets/images/png/smp_dzw3cn.jpg"
+  },
+  {
+    "year": "1989 - 1995",
+    "level": "Elementary School",
+    "instance": "SD Negeri Nagasari 3",
+    "location": "Karawang Regency",
+    "logo": "https://res.cloudinary.com/devstreetlab-assets/image/upload/v1687875975/devstreetlab-assets/images/png/sd_rw8orm.png"
+  }
+]

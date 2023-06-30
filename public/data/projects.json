@@ -1,0 +1,249 @@
+[
+  {
+    "year": 2019,
+    "data": [
+      {
+        "title": "CMS OPD",
+        "vendor": "Dinas Komunikasi & Informatika, Karawang",
+        "url": "https://dinkes.karawangkab.go.id/",
+        "kind": "Fullstack",
+        "tech": [
+          "PHP",
+          "Codeigniter",
+          "Bootstrap",
+          "JQuery",
+          "MySQL"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "data": [
+      {
+        "title": "Subang Larang",
+        "vendor": "Dinas Komunikasi & Informatika, Karawang",
+        "url": "https://subanglarang.karawangkab.go.id/",
+        "kind": "Fullstack",
+        "tech": [
+          "PHP",
+          "Codeigniter",
+          "Bootstrap",
+          "JQuery",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Imunisasi Ibu & Balita",
+        "vendor": "Dinas Komunikasi & Informatika, Karawang",
+        "url": null,
+        "kind": "Fullstack",
+        "tech": [
+          "NextJs",
+          "Zustand",
+          "Bootstrap",
+          "MySQL"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "data": [
+      {
+        "title": "Open Data Kab. Karawang",
+        "vendor": "Dinas Komunikasi & Informatika, Karawang",
+        "url": "https://opendata.karawangkab.go.id",
+        "kind": "Front-End",
+        "tech": [
+          "ReactJs",
+          "Bootstrap"
+        ]
+      },
+      {
+        "title": "PBB Desa Kab. Karawang",
+        "vendor": "Dinas Komunikasi & Informatika, Karawang",
+        "url": "https://pbbdesa-op.baleprasutisingaperbangsa.com/login",
+        "kind": "Fullstack",
+        "tech": [
+          "PHP",
+          "Laravel",
+          "Bootstrap"
+        ]
+      },
+      {
+        "title": "Produk Hukum JDIH Kab. Karawang",
+        "vendor": "Dinas Komunikasi & Informatika, Karawang",
+        "url": "https://prokum.jdih.karawangkab.go.id/user/login",
+        "kind": "Fullstack",
+        "tech": [
+          "PHP",
+          "Laravel",
+          "Drupal",
+          "Bootstrap"
+        ]
+      },
+      {
+        "title": "Recipe",
+        "vendor": "Personal",
+        "url": "https://gitlab.com/ashymee.dev/recipe-search-app",
+        "kind": "Front-End",
+        "tech": [
+          "ReactJs"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "data": [
+      {
+        "title": "MyAds Telkomsel",
+        "vendor": "PT Eluon, Jakarta",
+        "url": "https://myads.telkomsel.com",
+        "kind": "Front-End",
+        "tech": [
+          "NextJs",
+          "Javascript",
+          "Redux"
+        ]
+      },
+      {
+        "title": "Warehouse Monitoring",
+        "vendor": "CV HK Mandiri, Karawang",
+        "url": "https://hk-mandiri.com",
+        "kind": "Fullstack",
+        "tech": [
+          "NextJs",
+          "Typescript",
+          "Zustand",
+          "Tailwind CSS",
+          "Postgresql",
+          "OAuth",
+          "PWA",
+          "Redis"
+        ]
+      },
+      {
+        "title": "SIABUM DESA",
+        "vendor": "Lecturer of Universitas Buana Perjuangan",
+        "url": "https://awh-siabum.vercel.app/auth/login",
+        "kind": "Fullstack",
+        "tech": [
+          "NextJs",
+          "Typescript",
+          "Zustand",
+          "Tailwind CSS",
+          "Postgresql",
+          "Firebase",
+          "PWA",
+          "Redis"
+        ]
+      },
+      {
+        "title": "Todo App",
+        "vendor": "Personal",
+        "url": "https://github.com/ashymee/dotnet-seven-webapi-todo-app.git",
+        "kind": "Back-End",
+        "tech": [
+          "dotNet 7"
+        ]
+      },
+      {
+        "title": "Simple Man-Power Calculator",
+        "vendor": "Personal",
+        "url": "https://simple-manpower-calculator.vercel.app/",
+        "kind": "Front-End",
+        "tech": [
+          "ReactJs",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "DSL Metaverse",
+        "vendor": "Personal",
+        "url": "https://dsl-metaverse.vercel.app/",
+        "kind": "Front-End",
+        "tech": [
+          "ReactJs",
+          "Typescript",
+          "Tailwind CSS",
+          "Zustand",
+          "PWA",
+          "Moralis"
+        ]
+      },
+      {
+        "title": "Xtremax",
+        "vendor": "Personal",
+        "url": "https://xtremax-app.vercel.app/",
+        "kind": "Front-End",
+        "tech": [
+          "NextJs",
+          "Typescript",
+          "Tailwind CSS",
+          "Framer Motion",
+          "Zustand",
+          "PWA",
+          "Leaflet"
+        ]
+      },
+      {
+        "title": "Youtube & Netflix UI Clone",
+        "vendor": "Personal",
+        "url": "https://dsl-imovees.vercel.app",
+        "kind": "Front-End",
+        "tech": [
+          "NextJs",
+          "Typescript",
+          "Tailwind CSS",
+          "PWA",
+          "Zustand"
+        ]
+      },
+      {
+        "title": "Zodiac Calculator",
+        "vendor": "Personal",
+        "url": "https://zodiac-kwadran-lima.vercel.app/",
+        "kind": "Front-End",
+        "tech": [
+          "NextJs",
+          "Typescript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "DevStreetLab",
+        "vendor": "Personal",
+        "url": "https://devstreetlab.my.id",
+        "kind": "Fullstack",
+        "tech": [
+          "NextJs",
+          "Typescript",
+          "Tailwind CSS",
+          "Firebase",
+          "Postgresql",
+          "Zustand",
+          "PWA",
+          "QRIS"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "data": [
+      {
+        "title": "Global Customer Care System (GCCS)",
+        "vendor": "Modena",
+        "url": "https://gccs.modena.com",
+        "kind": "Front-End",
+        "tech": [
+          "ReactJs",
+          "Redux Thunk",
+          "Prime React"
+        ]
+      }
+    ]
+  }
+]

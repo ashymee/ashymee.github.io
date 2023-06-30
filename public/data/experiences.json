@@ -1,0 +1,53 @@
+[
+  {
+    "startPeriod": "2019-01",
+    "endPeriod": "",
+    "title": "Blogger",
+    "instance": "DevStreetLab",
+    "url": "https://devstreetlab.my.id",
+    "location": "Karawang",
+    "description": ""
+  },
+  {
+    "startPeriod": "2022-10",
+    "endPeriod": "2023-04",
+    "title": "ReactJS Developer",
+    "instance": "PT Modena (under PT Nawa Data Solutions)",
+    "url": "https://modena.com",
+    "location": "South Jakarta",
+    "description": ""
+  },
+  {
+    "startPeriod": "2022-01",
+    "endPeriod": "2022-09",
+    "title": "Freelance",
+    "description": ""
+  },
+  {
+    "startPeriod": "2019-01",
+    "endPeriod": "2021-12",
+    "title": "Programmer",
+    "instance": "Dinas Komunikasi dan Informatika",
+    "url": "https://diskominfo.karawangkab.go.id/",
+    "location": "Karawang Regency",
+    "description": ""
+  },
+  {
+    "startPeriod": "2011-01",
+    "endPeriod": "2018-12",
+    "title": "Assistant Manager",
+    "instance": "PT Perkebunan Nusantara 1",
+    "url": "https://ptpn1.co.id",
+    "location": "Aceh",
+    "description": ""
+  },
+  {
+    "startPeriod": "2007-01",
+    "endPeriod": "2010-09",
+    "title": "Assistant Manager",
+    "instance": "PT Teladan Resources",
+    "url": "https://teladan-resources.com",
+    "location": "East Kalimantan",
+    "description": ""
+  }
+]
