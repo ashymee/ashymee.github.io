@@ -1,8 +1,14 @@
 {
-  "name": "new-ashymee-github-page",
+  "name": "ashymee-github-page",
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "homepage": "https://ashymee.github.io",
+  "author": {
+    "name": "Aswin Sahlan Himawan",
+    "email": "ashymee@gmail.com",
+    "url": "https://devstreetlab.my.id"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,7 +18,9 @@
     "preview:test": "vite preview --mode test",
     "husky": "husky",
     "prepare": "husky install",
-    "tailwind": "tailwind"
+    "tailwind": "tailwind",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.7.0",
@@ -23,6 +31,7 @@
     "clsx": "^1.2.1",
     "dotenv": "^16.3.1",
     "framer-motion": "^10.12.16",
+    "gh-pages": "^3.0.0",
     "lucide-react": "^0.252.0",
     "postcss-import": "^15.1.0",
     "react": "^18.2.0",
@@ -40,9 +49,9 @@
     "zustand": "^4.3.8"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.5",
+    "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^17.6.5",
-    "@release-it/conventional-changelog": "^5.1.1",
+    "@release-it/conventional-changelog": "^5.1.0",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
