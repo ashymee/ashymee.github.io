@@ -1,11 +1,20 @@
 const useConstants = () => {
   const URL = import.meta.env.VITE_URL;
+  const mode = import.meta.env.MODE;
 
-  const json_certification = `${URL}/data/certification.json`;
-  const json_contact = `${URL}/data/contacts.json`;
-  const json_education = `${URL}/data/education.json`;
-  const json_experiences = `${URL}/data/experiences.json`;
-  const json_projects = `${URL}/data/projects.json`;
+  const isDev = mode === "development";
+
+  const cert = "/data/certification.json";
+  const contact = "/data/contacts.json";
+  const edu = "/data/education.json";
+  const exp = "/data/experiences.json";
+  const proj = "/data/projects.json";
+
+  const json_certification = isDev ? `${URL}/${cert}` : cert;
+  const json_contact = isDev ? `${URL}/${contact}` : contact;
+  const json_education = isDev ? `${URL}/${edu}` : edu;
+  const json_experiences = isDev ? `${URL}/${exp}` : exp;
+  const json_projects = isDev ? `${URL}/${proj}` : proj;
 
   return {
     URL,
