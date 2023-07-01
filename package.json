@@ -19,7 +19,7 @@
     "husky": "husky",
     "prepare": "husky install",
     "tailwind": "tailwind",
-    "predeploy": "pnpm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
