@@ -12,7 +12,6 @@ export default function ExpPage() {
   const [data, setData] = useState<TimelineData[]>([]);
   const { isDarkMode } = useDarkMode();
 
-  console.log("data::", data);
 
   useEffect(() => {
     const fetchData = async () => {
