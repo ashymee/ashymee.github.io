@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Download CV",
+    "icon": "printer"
+  },
+  {
+    "title": "My Blog",
+    "icon": "web",
+    "url": "https://devstreetlab.my.id?origin=ashymee.github.io"
+  },
+  {
+    "title": "My LinkedIn Page",
+    "icon": "linkedin",
+    "url": "https://www.linkedin.com/in/aswinhimawan"
+  },
+  {
+    "title": "My Repos",
+    "icon": "github",
+    "url": "https://github.com/ashymee"
+  },
+  {
+    "title": "Text Me",
+    "icon": "message",
+    "url": "https://wa.me/081290407015"
+  },
+  {
+    "title": "Mail Me",
+    "icon": "mail",
+    "url": "mailto:support@devstreetlab.my.id"
+  }
+]
