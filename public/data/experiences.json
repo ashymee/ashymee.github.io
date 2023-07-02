@@ -17,8 +17,8 @@
     "location": "South Jakarta",
     "description": [
       "Collaborate with the team to build web-based GCCS application in a timely manner.",
-      "Supports backend work (RESTful API) using dotnet 6.",
-      "Supports E2E data migration work."
+      "Supports backend (dotnet 6).",
+      "Supports E2E data migration."
     ]
   },
   {
@@ -26,10 +26,10 @@
     "endPeriod": "2022-09",
     "title": "Freelance",
     "description": [
-      "Collaborate with Team. Build MyAds Telkomsel. https://myads.telkomsel.com",
-      "Freelancing. Build HK Mandiri App. https://hk-mandiri.com",
-      "Freelancing. Build AWH SIABUM. https://awh-siabum.vercel.app/auth/login",
-      "Freelancing. Build Yutaka Outsource. https://yutaka-outsource.vercel.app"
+      "Collaborate with Team. Build MyAds Telkomsel. https://myads.telkomsel.com.",
+      "Freelancing. Build HK Mandiri App. https://hk-mandiri.com.",
+      "Freelancing. Build AWH SIABUM. https://awh-siabum.vercel.app/auth/login.",
+      "Freelancing. Build Yutaka Outsource. https://yutaka-outsource.vercel.app."
     ]
   },
   {
