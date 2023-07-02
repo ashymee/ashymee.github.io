@@ -5,15 +5,9 @@
       {
         "title": "CMS OPD",
         "vendor": "Dinas Komunikasi & Informatika, Karawang",
-        "url": "https://dinkes.karawangkab.go.id/",
+        "url": "https://dinkes.karawangkab.go.id",
         "kind": "Fullstack",
-        "tech": [
-          "PHP",
-          "Codeigniter",
-          "Bootstrap",
-          "JQuery",
-          "MySQL"
-        ]
+        "tech": ["PHP", "Codeigniter", "Bootstrap", "JQuery", "MySQL"]
       }
     ]
   },
@@ -23,15 +17,9 @@
       {
         "title": "Subang Larang",
         "vendor": "Dinas Komunikasi & Informatika, Karawang",
-        "url": "https://subanglarang.karawangkab.go.id/",
+        "url": "https://subanglarang.karawangkab.go.id",
         "kind": "Fullstack",
-        "tech": [
-          "PHP",
-          "Codeigniter",
-          "Bootstrap",
-          "JQuery",
-          "MySQL"
-        ]
+        "tech": ["PHP", "Codeigniter", "Bootstrap", "JQuery", "MySQL"]
       },
       {
         "title": "Imunisasi Ibu & Balita",
@@ -102,11 +90,7 @@
         "vendor": "PT Eluon, Jakarta",
         "url": "https://myads.telkomsel.com",
         "kind": "Front-End",
-        "tech": [
-          "NextJs",
-          "Javascript",
-          "Redux"
-        ]
+        "tech": ["NextJs", "Javascript", "Redux"]
       },
       {
         "title": "Warehouse Monitoring",
@@ -145,24 +129,19 @@
         "vendor": "Personal",
         "url": "https://github.com/ashymee/dotnet-seven-webapi-todo-app.git",
         "kind": "Back-End",
-        "tech": [
-          "dotNet 7"
-        ]
+        "tech": ["dotNet 7"]
       },
       {
         "title": "Simple Man-Power Calculator",
         "vendor": "Personal",
-        "url": "https://simple-manpower-calculator.vercel.app/",
+        "url": "https://simple-manpower-calculator.vercel.app",
         "kind": "Front-End",
-        "tech": [
-          "ReactJs",
-          "Tailwind CSS"
-        ]
+        "tech": ["ReactJs", "Tailwind CSS"]
       },
       {
         "title": "DSL Metaverse",
         "vendor": "Personal",
-        "url": "https://dsl-metaverse.vercel.app/",
+        "url": "https://dsl-metaverse.vercel.app",
         "kind": "Front-End",
         "tech": [
           "ReactJs",
@@ -176,7 +155,7 @@
       {
         "title": "Xtremax",
         "vendor": "Personal",
-        "url": "https://xtremax-app.vercel.app/",
+        "url": "https://xtremax-app.vercel.app",
         "kind": "Front-End",
         "tech": [
           "NextJs",
@@ -193,24 +172,14 @@
         "vendor": "Personal",
         "url": "https://dsl-imovees.vercel.app",
         "kind": "Front-End",
-        "tech": [
-          "NextJs",
-          "Typescript",
-          "Tailwind CSS",
-          "PWA",
-          "Zustand"
-        ]
+        "tech": ["NextJs", "Typescript", "Tailwind CSS", "PWA", "Zustand"]
       },
       {
         "title": "Zodiac Calculator",
         "vendor": "Personal",
-        "url": "https://zodiac-kwadran-lima.vercel.app/",
+        "url": "https://zodiac-kwadran-lima.vercel.app",
         "kind": "Front-End",
-        "tech": [
-          "NextJs",
-          "Typescript",
-          "Tailwind CSS"
-        ]
+        "tech": ["NextJs", "Typescript", "Tailwind CSS"]
       },
       {
         "title": "DevStreetLab",
