@@ -579,3 +579,7 @@
     top: var(--timeline-sticky-marging-top--mobile);
   }
 }
+
+iframe {
+  @apply h-screen w-screen;
+}
