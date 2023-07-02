@@ -96,12 +96,12 @@ export default function EduPage() {
             </dialog>
 
             {certsData
-              .sort((a, b) => a.year.localeCompare(b.year))
+              .sort((a, b) => a.year - b.year)
               .reverse()
               .map((item, index) => (
                 <ExpandedContent
                   key={index}
-                  title={item.year}
+                  title={item.year.toString()}
                   subTitle={item.name}
                   caption={item.heldBy}
                   subCaption={item.in}
