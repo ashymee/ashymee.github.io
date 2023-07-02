@@ -9,44 +9,19 @@ import { Timeline } from "../misc/Timeline";
 
 export default function ExpPage() {
   const { json_experiences } = useConstants();
-  const [data, setData] = useState<TimelineData[]>([]);
+  const [timelineData, setTimelineData] = useState<TimelineData[]>([]);
   const { isDarkMode } = useDarkMode();
-
 
   useEffect(() => {
     const fetchData = async () => {
       await fetch(json_experiences).then(async (res) => {
         const json = await res.json();
-        json && setData(json);
+        json && setTimelineData(json);
       });
     };
 
     fetchData();
   }, [json_experiences]);
-
-  // const timelineData: TimelineData[] = [
-  //   {
-  //     startPeriod: "2010-05",
-  //     endPeriod: "2018-10",
-  //     title: "Title of event/period 1",
-  //     subtitle: "Subtitle 1", // optional
-  //     group: 1,
-  //   },
-  //   {
-  //     startPeriod: "2015-01",
-  //     endPeriod: "2018-12",
-  //     title: "Title of event/period 2",
-  //     subtitle: "Subtitle 2",
-  //     group: 2,
-  //   },
-  //   {
-  //     startPeriod: "2019-01",
-  //     endPeriod: "",
-  //     title: "Title of event/period 3",
-  //     subtitle: "Subtitle 3",
-  //     group: 3,
-  //   },
-  // ];
 
   const language = "en-US"; // date language format
   const order = "asc"; // in which order timeline goes ('asc' | 'desc')
@@ -74,9 +49,7 @@ export default function ExpPage() {
 
         <div className="flex-1 w-full overflow-y-scroll scrollbar-hide">
           <Timeline
-            timelineData={data.map((item) => ({
-              ...item,
-            }))}
+            timelineData={timelineData}
             language={language}
             order={order}
             theme={theme}
