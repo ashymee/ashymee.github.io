@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 interface CertificationObject {
-  year: string;
+  year: number;
   name: string;
   heldBy: string;
   in: string;
@@ -13,12 +13,13 @@ interface EducationObject {
   level: string;
   instance: string;
   location: string;
+  gpa?: number;
   logo: string;
 }
 
 interface ProjectObject {
   year: number;
-  data: Datum[];
+  data: ProjectDataObject[];
 }
 
 interface ProjectDataObject {
@@ -59,9 +60,10 @@ interface ExperienceObject {
   endPeriod: string;
   position?: string;
   instance?: string;
+  title: string;
   url?: string;
   location?: string;
-  description: string;
+  description: string[];
 }
 
 interface ThemeObject {
@@ -223,3 +225,19 @@ type LocalesArgument =
   | "hr-BA"
   | "hr-HR"
   | "hsb";
+
+interface SkillObject {
+  soft: string[];
+  hard: string[];
+}
+
+type BioObject = {
+  title: string;
+  name: string;
+  position: string;
+  email: string;
+  phone: string;
+  town: string;
+  summary: string;
+  skill: SkillObject;
+};
