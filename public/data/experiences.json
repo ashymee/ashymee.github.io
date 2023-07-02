@@ -6,31 +6,43 @@
     "instance": "DevStreetLab",
     "url": "https://devstreetlab.my.id",
     "location": "Karawang",
-    "description": ""
+    "description": []
   },
   {
     "startPeriod": "2022-10",
     "endPeriod": "2023-04",
     "title": "ReactJS Developer",
-    "instance": "PT Modena (under PT Nawa Data Solutions)",
+    "instance": "PT Modena [PT Nawa Data Solutions]",
     "url": "https://modena.com",
     "location": "South Jakarta",
-    "description": ""
+    "description": [
+      "Collaborate with the team to build web-based GCCS application in a timely manner.",
+      "Supports backend work (RESTful API) using dotnet 6.",
+      "Supports E2E data migration work."
+    ]
   },
   {
     "startPeriod": "2022-01",
     "endPeriod": "2022-09",
     "title": "Freelance",
-    "description": ""
+    "description": [
+      "Collaborate with Team. Build MyAds Telkomsel. https://myads.telkomsel.com",
+      "Freelancing. Build HK Mandiri App. https://hk-mandiri.com",
+      "Freelancing. Build AWH SIABUM. https://awh-siabum.vercel.app/auth/login",
+      "Freelancing. Build Yutaka Outsource. https://yutaka-outsource.vercel.app"
+    ]
   },
   {
     "startPeriod": "2019-01",
     "endPeriod": "2021-12",
     "title": "Programmer",
     "instance": "Dinas Komunikasi dan Informatika",
-    "url": "https://diskominfo.karawangkab.go.id/",
+    "url": "https://diskominfo.karawangkab.go.id",
     "location": "Karawang Regency",
-    "description": ""
+    "description": [
+      "Working on local government web-based applications in a fast and timely manner.",
+      "Coordinate with leaders about work progress on a regular basis."
+    ]
   },
   {
     "startPeriod": "2011-01",
@@ -39,7 +51,11 @@
     "instance": "PT Perkebunan Nusantara 1",
     "url": "https://ptpn1.co.id",
     "location": "Aceh",
-    "description": ""
+    "description": [
+      "Manage a number of employees (upto 150 people/day) to complete maintenance targets.",
+      "Reports the progress to Manager.",
+      "Controlls the harvesting process according to planned targets on a daily basis."
+    ]
   },
   {
     "startPeriod": "2007-01",
@@ -48,6 +64,10 @@
     "instance": "PT Teladan Resources",
     "url": "https://teladan-resources.com",
     "location": "East Kalimantan",
-    "description": ""
+    "description": [
+      "Manage a number of employees (upto 150 people/day) to complete maintenance daily targets.",
+      "Reports the progress to Manager.",
+      "Controlls the job process according to planned targets on a daily basis."
+    ]
   }
 ]
