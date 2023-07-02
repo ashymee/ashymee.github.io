@@ -1,7 +1,9 @@
 import Spinner from "@/components/loaders/Spinner";
 import useStores from "@/lib/custom-hooks/useStores";
+import { PDFViewer } from "@react-pdf/renderer";
 import { motion } from "framer-motion";
 import { Fragment, Suspense, lazy } from "react";
+import HomePdf from "../misc/HomePdf";
 const Wrapper = lazy(() => import("@/components/layout/Wrapper"));
 const HomeTitle = lazy(() => import("@/components/misc/HomeTitle"));
 const Layer1 = lazy(() => import("@/components/misc/Layer1"));
@@ -13,7 +15,24 @@ const Layer6 = lazy(() => import("@/components/misc/Layer6"));
 const Sun = lazy(() => import("@/components/misc/Sun"));
 
 export default function HomePage() {
-  const { showHeavyAssets } = useStores();
+  const { showHeavyAssets, showPDF, toggle } = useStores();
+
+  if (showPDF) {
+    return (
+      <Suspense fallback={<Spinner />}>
+        <PDFViewer>
+          <HomePdf />
+        </PDFViewer>
+
+        <button
+          className="fixed bottom-5 right-5 bg-gray-300 hover:bg-gray-400 px-4 py-2 rounded-md"
+          onClick={() => toggle.togglePDF()}
+        >
+          Back
+        </button>
+      </Suspense>
+    );
+  }
 
   return (
     <Wrapper>
@@ -30,23 +49,11 @@ export default function HomePage() {
           <Fragment>
             <Suspense fallback={<Spinner />}>
               <Sun />
-            </Suspense>
-            <Suspense fallback={<Spinner />}>
               <Layer6 />
-            </Suspense>
-            <Suspense fallback={<Spinner />}>
               <Layer5 />
-            </Suspense>
-            <Suspense fallback={<Spinner />}>
               <Layer4 />
-            </Suspense>
-            <Suspense fallback={<Spinner />}>
               <Layer3 />
-            </Suspense>
-            <Suspense fallback={<Spinner />}>
               <Layer2 />
-            </Suspense>
-            <Suspense fallback={<Spinner />}>
               <Layer1 />
             </Suspense>
           </Fragment>
