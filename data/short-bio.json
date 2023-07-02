@@ -1,0 +1,45 @@
+{
+  "title": "Aswin Himawan's CV",
+  "name": "Aswin Himawan",
+  "position": "Full-Stack Developer",
+  "email": "ashymee@gmail.com",
+  "phone": "+6281290407015",
+  "town": "Karawang, Indonesia",
+  "summary": "I'm self taught Full-Stack developer from Karawang, Indonesia. Certified programmer & mobile development. I build web, desktop, mobile (hybrid) app and RESTful API using popular Frameworks.",
+  "skill": {
+    "soft": [
+      "Communication",
+      "Teamwork",
+      "Leadership",
+      "Problem Solving",
+      "Strategic Thinking",
+      "Strategic Planning"
+    ],
+    "hard": [
+      "Git",
+      "PHP",
+      "Laravel",
+      "Javascript",
+      "Typescript",
+      "NodeJS",
+      "ReactJS",
+      "NextJS",
+      "ExpressJS",
+      "NestJS",
+      "dotNet",
+      "Redux",
+      "Zustand",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "GraphQL",
+      "React Native",
+      "Flutter",
+      "MongoDB",
+      "Firebase",
+      "Docker",
+      "SEO",
+      "Light House"
+    ]
+  }
+}

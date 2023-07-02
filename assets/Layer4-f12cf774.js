@@ -1,0 +1,1 @@
+import{j as t,r as o,_ as r}from"./index-0ae49f0e.js";const a=o.lazy(()=>r(()=>import("./Ground4-d3124066.js"),["assets/Ground4-d3124066.js","assets/index-0ae49f0e.js","assets/index-d48f2496.css"]));function s(){return t.jsx(a,{className:"absolute h-auto bottom-0 md:-bottom-24 left-0 right-0"})}export{s as default};
