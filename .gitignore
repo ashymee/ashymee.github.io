@@ -26,3 +26,4 @@ dist-ssr
 notes.md
 
 pnpm-lock.yaml
+.env
