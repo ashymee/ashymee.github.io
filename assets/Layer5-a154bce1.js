@@ -1,0 +1,1 @@
+import{j as r,r as t,_ as o}from"./index-c265c8f6.js";const a=t.lazy(()=>o(()=>import("./Ground5-0841fc4b.js"),["assets/Ground5-0841fc4b.js","assets/index-c265c8f6.js","assets/index-d48f2496.css"]));function s(){return r.jsx(a,{})}export{s as default};

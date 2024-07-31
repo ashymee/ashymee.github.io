@@ -1,0 +1,1 @@
+import{j as r,r as s,S as e,_ as t}from"./index-c265c8f6.js";const a=s.lazy(()=>t(()=>import("./Ground3-a11cf75f.js"),["assets/Ground3-a11cf75f.js","assets/index-c265c8f6.js","assets/index-d48f2496.css"]));function n(){return r.jsx(s.Suspense,{fallback:r.jsx(e,{}),children:r.jsx(a,{})})}export{n as default};

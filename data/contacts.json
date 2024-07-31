@@ -1,7 +1,8 @@
 [
   {
     "title": "Printable CV",
-    "icon": "printer"
+    "icon": "printer",
+    "url": "http://localhost:5173/assets/AswinHimawanCV.pdf"
   },
   {
     "title": "My Blog",
