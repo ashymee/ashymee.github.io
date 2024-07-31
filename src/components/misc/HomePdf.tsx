@@ -209,9 +209,6 @@ export default function HomePdf() {
           <Text style={styles.fontBoldMD}>
             {edu?.instance} <Text style={styles.fontNormal}>({edu?.year})</Text>
           </Text>
-          <Text style={styles.fontNormal}>
-            {edu?.level} - GPA {edu?.gpa}
-          </Text>
         </View>
 
         <View style={styles.section}>
